@@ -109,6 +109,7 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="/usr/local/include/pd" />
 		</Compiler>
 		<Unit filename="../Sources/Hoa.h" />
 		<Unit filename="../Sources/Hoa2D/Ambisonic.cpp" />
