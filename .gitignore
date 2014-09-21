@@ -1,3 +1,23 @@
+# backup copies
+*~
+# build products
+*\.la
+*\.lo
+*\.o
+*\.so
+*\.pd_darwin
+*\.pd_linux
+*\.dll
+\.deps
+\.libs
+
+#################
+## Code::Blocks temp and user files
+#################
+*.layout
+*.save
+*build_log.html
+
 #################
 ## Juce
 #################
