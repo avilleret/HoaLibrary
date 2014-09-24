@@ -11,6 +11,11 @@ extern "C"
 {
 #include "../ThirdParty/PureData/Sources/cicm_wrapper.h"
 #include "hoa.pd_commonsyms.h"
+
+#ifdef __linux__
+# include <cblas.h>
+#endif
+
 }
 
 #define MAX_CHANNELS 256

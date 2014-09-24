@@ -7,6 +7,10 @@
 #ifndef __DEF_HOA_LIBRARY__
 #define __DEF_HOA_LIBRARY__
 
+#ifdef __linux__
+# include <cblas.h>
+#endif
+
 namespace Hoa{};
 
 #include "HoaDefs.h"
