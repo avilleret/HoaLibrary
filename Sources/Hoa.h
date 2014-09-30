@@ -7,6 +7,12 @@
 #ifndef __DEF_HOA_LIBRARY__
 #define __DEF_HOA_LIBRARY__
 
+#ifdef HAVE_LIBBLAS
+# include "cblas.h"
+#else 
+# include "../ThirdParty/CBlas/Header/cblas.h"
+#endif /* HAVE_LIBBLAS */
+
 namespace Hoa{};
 
 #include "HoaDefs.h"
