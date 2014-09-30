@@ -31,8 +31,10 @@
 
 #endif
 
-#ifdef _LINUX
-#include <cblas.h>
+#if defined(_LINUX) && defined(HAVE_LIBBLAS)
+# include <cblas.h>
+#else 
+# include "../ThirdParty/CBlas/Header/cblas.h"
 #endif
 
 #ifdef PD_DEBUG
