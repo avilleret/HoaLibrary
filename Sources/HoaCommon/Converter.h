@@ -7,7 +7,7 @@
 #ifndef __DEF_HOA_CONVERTER__
 #define __DEF_HOA_CONVERTER__
 
-#include "../Hoa2D/Hoa2d.h"
+#include "../Hoa2D/Hoa2D.h"
 #include "../Hoa3D/Hoa3D.h"
 
 namespace Hoa
