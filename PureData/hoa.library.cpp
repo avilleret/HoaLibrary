@@ -63,3 +63,8 @@ extern "C" void setup_hoa0x2elibrary(void)
     pd_library_add_folder("HoaLibrary", "misc");
 }
 
+extern "C" void hoa_setup (void)
+{
+  setup_hoa0x2elibrary();
+}  
+
