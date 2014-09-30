@@ -56,11 +56,10 @@ extern "C" void setup_hoa0x2elibrary(void)
 	setup_hoa0x2e3d0x2emeter_tilde();
     setup_hoa0x2e3d0x2escope_tilde();  
 
-    pd_library_add_folder("HoaLibrary", "patchers");
-    pd_library_add_folder("HoaLibrary", "clippings");
-    pd_library_add_folder("HoaLibrary", "dependencies");
-    pd_library_add_folder("HoaLibrary", "media");
-    pd_library_add_folder("HoaLibrary", "misc");
+    pd_library_add_folder("hoa", "patchers");
+    pd_library_add_folder("hoa", "media");
+    pd_library_add_folder("hoa", "misc");
+    pd_library_add_folder("hoa", "helps");
 }
 
 extern "C" void hoa_setup (void)
